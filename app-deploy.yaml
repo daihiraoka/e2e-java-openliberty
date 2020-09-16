@@ -11,7 +11,7 @@ metadata:
     description: This image is the Kabanero development container for the java-openliberty
       stack
     distribution-scope: public
-    image.opencontainers.org/created: "2020-09-09T04:51:40+09:00"
+    image.opencontainers.org/created: "2020-09-16T19:49:42+09:00"
     k8s.io/description: The Universal Base Image is designed and engineered to be
       the base layer for all of your containerized applications, middleware and utilities.
       This base image is freely redistributable, but Red Hat only supports Red Hat
@@ -51,7 +51,6 @@ metadata:
     stack.appsody.dev/id: java-openliberty
     stack.appsody.dev/version: 0.2.3
   name: appsody-sample-openliberty
-  namespace: kabanero-samples
 spec:
   applicationImage: dev.local/appsody-sample-openliberty
   createKnativeService: false
