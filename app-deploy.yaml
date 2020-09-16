@@ -52,6 +52,7 @@ metadata:
     stack.appsody.dev/id: java-openliberty
     stack.appsody.dev/version: 0.2.3
   name: appsody-sample-openliberty
+  namespace: kabanero-samples
 spec:
   applicationImage: dev.local/appsody-sample-openliberty
   createKnativeService: false
